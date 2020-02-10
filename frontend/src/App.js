@@ -15,6 +15,7 @@ function App() {
     <body>
       <div className = "content">
         <div className = "navbar">
+          
             <ul>
               <li><button className = "btn">Github</button></li>
               <li><button className = "btn">About me</button></li>

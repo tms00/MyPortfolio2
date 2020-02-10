@@ -7,9 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: 0;
-    background :#E5E6F0;
-    -webkit-font-smoothing : antialiased;
-
+    
 
 }
 
@@ -17,6 +15,12 @@
     display: flex;
 
 }
+
+body{
+    -webkit-font-smoothing : antialiased;
+    background: #E5E6F0;
+}
+
 
 .frontPage{
     margin-left: 30%;
