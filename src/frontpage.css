@@ -4,19 +4,13 @@
 
 
 
+
 .frontPage h1{
     font-family: Raleway,Roboto,Arial, Helvetica, sans-serif;
     font-size : 54px;
     color : #000;
 }
 
-.content{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
 
 
 
