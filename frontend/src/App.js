@@ -13,9 +13,14 @@ function App() {
     </head>
 
     <body>
+        <div className = "frontPage">
+          <h1><strong>Hello, my name is Thiago.<br/> 
+          Student, and a full-stack developer. <hr/></strong></h1>
+         
+        </div>
+
       <div className = "content">
         <div className = "navbar">
-          
             <ul>
               <li><button className = "btn">Github</button></li>
               <li><button className = "btn">About me</button></li>
@@ -23,15 +28,8 @@ function App() {
             </ul>
         </div>
 
-        <div className = "frontPage">
-          <h1><strong>Hello, my name is Thiago.<br/> 
-          Student, and a full-stack developer.</strong></h1>
-          <hr/>
-        </div>
-
-        <div className = "sideBar">
-          
-        </div>
+        
+        
 
       </div>
     </body>
