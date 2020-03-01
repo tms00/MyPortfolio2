@@ -13,25 +13,27 @@ function App() {
     </head>
 
     <body>
+        
         <div className = "frontPage">
-          <h1><strong>Hello, my name is Thiago.<br/> 
-          Student, and a full-stack developer. <hr/></strong></h1>
-         
+            <button className = "btn">
+              Menu
+            </button>
+            <h1><strong>Hello, my name is Thiago.<br/> 
+            Student, and a full-stack developer. <hr/></strong></h1>
+          
+          </div>
+
+        <div className = "content">
+          <div className = "navbar">
+              <ul>
+                <li><button className = "btn">Github</button></li>
+                <li><button className = "btn">About me</button></li>
+              </ul>
+          </div>
+
         </div>
 
-      <div className = "content">
-        <div className = "navbar">
-            <ul>
-              <li><button className = "btn">Github</button></li>
-              <li><button className = "btn">About me</button></li>
-              <li><button className = "btn">Portfolio</button></li>
-            </ul>
-        </div>
-
-        
-        
-
-      </div>
+       
     </body>
 
     </>
