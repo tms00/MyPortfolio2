@@ -15,11 +15,12 @@ function App() {
     <body>
         
         <div className = "frontPage">
+            
             <button className = "btn">
               Menu
             </button>
-            <h1><strong>Hello, my name is Thiago.<br/> 
-            Student, and a full-stack developer. <hr/></strong></h1>
+            <h1>Hello, my name is Thiago.<br/> 
+            Student, and a full-stack developer. <hr/></h1>
           
           </div>
 

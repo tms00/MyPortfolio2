@@ -15,8 +15,10 @@
 body{
     -webkit-font-smoothing : antialiased;
     background: #E5E6F0;
-    background: url('./assets/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg');
+    background: linear-gradient(rgb(0, 0, 0, 0.3),rgb(0, 0, 0, 0.3)) , url('./assets/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg');
     background-size: cover;
+    background-position: center;
+    
 }
 
 .content{
