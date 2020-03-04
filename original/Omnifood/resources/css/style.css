@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300i,400&display=swap');
+
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #FFF;
+    color: #555;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+
+}
+
+.row{
+    max-width: 1140px;
+    margin : 0 auto;
+}
