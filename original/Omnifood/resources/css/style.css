@@ -33,21 +33,88 @@ Reusable componentes
     margin : 0 auto;
 } 
 
+.box{
+    padding : 1%;
+}
+
+.box > p{
+    text-align: justify;
+}
+
+h1,h2,h3{
+    font-weight: 300;
+    text-transform: uppercase;
+}
 
 
-
-header > .hero-text-box h1{
+h1{
     margin-top: 0;
     margin-bottom: 20px;
     color : #FFF;
     font-size : 240%;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     word-spacing: 4px;
+    letter-spacing: 1px;
+
+    
+}
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+
 }
 
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content : " ";
+    width: 100px;
+    margin : 30px auto;
+}
 
+h3{
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+/*
+Paragraphs
+*/
+.long-copy{
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box >p{
+    font-size: 90%;
+    line-height: 145%;
+}
+
+/*
+Paragraphs 
+*/
+
+
+/*
+Icons
+*/
+.icon-big{
+    font-size: 320%;
+    color: #e67e22;
+}
+
+/*
+Icons
+*/
+
+
+/*
+Buttons
+*/
 header > .hero-text-box > 
  .btn:link,
  .btn:visited   {
@@ -90,6 +157,9 @@ header > .hero-text-box >
     background-color: #e67e22;
     color : #FFF; 
 }
+/*
+Buttons
+*/
 
 
 /*
@@ -165,17 +235,59 @@ Header
     width: auto;
 }
 
-section h2{
-    font-size: 160%;
-    font-weight: 400;
-}
-section h3{
-    font-size : 140%;
-    font-weight: 400;
+.section-features{
+    padding : 80px 0;
+    margin-bottom: 0px;
 }
 
-section  p{
-    font-weight: 400;
+.row1{
+    margin-bottom: 90px;
 }
+
 /* Section*/
+
+/*
+meals
+*/
+
+.section-meals{
+    padding: 0;
+}
+
+.meals-showcase{
+    list-style: none;
+    width: 100%;    
+}
+
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-photo img{
+    opacity: 0.6;
+    width: 100%;
+    height: automatic;
+    transform: scale(1.15);
+    transition : transform 0.5s;
+    transition : opacity 0.7    s;
+    
+}
+
+.meals-showcase li{
+    display: block;
+    float : left;
+    width: 25%;
+}
+
+.meal-photo img:hover{
+    opacity: 1.0;
+    transform: scale(1);
+}
+
+/*
+meals
+*/
 
