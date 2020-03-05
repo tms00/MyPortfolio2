@@ -41,7 +41,7 @@ header > .hero-text-box h1{
     margin-bottom: 20px;
     color : #FFF;
     font-size : 240%;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
     word-spacing: 4px;
@@ -50,10 +50,11 @@ header > .hero-text-box h1{
 
 header > .hero-text-box > 
  .btn:link,
- .btn:visited{
+ .btn:visited   {
+    font-size: 19px;
     display : inline-block;
     padding : 10px 30px;
-    font-weight: 300;
+    font-weight: 400;
     text-decoration : none;
     border-radius: 200px;
     transition : background-color 0.3s, 
@@ -137,6 +138,7 @@ header .main-nav li{
 
 header .main-nav li a:link,
 header .main-nav li a:visited{
+    font-weight: 400;
     padding : 8px 0;
     color : #FFF;
     text-transform: uppercase;
