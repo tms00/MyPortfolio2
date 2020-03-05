@@ -155,3 +155,23 @@ header .main-nav li a:active{
 /*
 Header
 */
+
+/* Section*/
+
+.ion-ios-infinite-outline{
+    height: 200px;
+    width: auto;
+}
+
+section h2{
+    font-size: 160%;
+}
+section h3{
+    font-size : 140%
+}
+
+section  p{
+    font-weight: 400;
+}
+/* Section*/
+
