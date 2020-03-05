@@ -165,9 +165,11 @@ Header
 
 section h2{
     font-size: 160%;
+    font-weight: 400;
 }
 section h3{
-    font-size : 140%
+    font-size : 140%;
+    font-weight: 400;
 }
 
 section  p{
